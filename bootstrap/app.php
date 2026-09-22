@@ -18,4 +18,17 @@ return Application::configure(basePath: dirname(__DIR__))
         $exceptions->shouldRenderJsonWhen(
             fn (Request $request) => $request->is('api/*') || $request->expectsJson(),
         );
+
+        $exceptions->render(function (\Throwable $e) {
+            if ($e instanceof \ArgumentCountError && strpos($e->getMessage(), 'Manager::createDriver') !== false) {
+                $trace = $e->getTrace();
+                $output = "<h1>Manager Crash Debug</h1>";
+                foreach ($trace as $t) {
+                    if (isset($t['class']) && strpos($t['class'], 'Manager') !== false) {
+                        $output .= "<p>Failing Manager Class: " . $t['class'] . "</p>";
+                    }
+                }
+                return response($output, 500);
+            }
+        });
     })->create();
