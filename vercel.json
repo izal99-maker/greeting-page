@@ -38,6 +38,7 @@
         "QUEUE_CONNECTION": "sync",
         "DB_CONNECTION": "sqlite",
         "FILESYSTEM_DISK": "local",
-        "BROADCAST_CONNECTION": "log"
+        "BROADCAST_CONNECTION": "log",
+        "APP_MAINTENANCE_DRIVER": "file"
     }
 }
