@@ -39,7 +39,7 @@
     <section class="min-h-screen flex flex-col items-center justify-center p-6 text-center">
         <h1 data-aos="zoom-in" data-aos-duration="1000"
             class="font-serif text-5xl md:text-7xl font-bold text-rose-900 mb-4">
-            Happy Birthday, <br> Non! ⚖️❤️
+            Happy Birthday, <br> Nona Libra & Hukum! ⚖️❤️
         </h1>
 
         <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000"
