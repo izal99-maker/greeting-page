@@ -22,10 +22,10 @@ return Application::configure(basePath: dirname(__DIR__))
         $exceptions->render(function (\Throwable $e) {
             if ($e instanceof \ArgumentCountError && strpos($e->getMessage(), 'Manager::createDriver') !== false) {
                 $trace = $e->getTrace();
-                $output = "<h1>Manager Crash Debug</h1>";
+                $output = "<h1>Manager Crash Debug 2</h1>";
                 foreach ($trace as $t) {
-                    if (isset($t['class']) && strpos($t['class'], 'Manager') !== false) {
-                        $output .= "<p>Failing Manager Class: " . $t['class'] . "</p>";
+                    if (isset($t['object']) && $t['object'] instanceof \Illuminate\Support\Manager) {
+                        $output .= "<p>Failing Manager Instance: " . get_class($t['object']) . "</p>";
                     }
                 }
                 return response($output, 500);
