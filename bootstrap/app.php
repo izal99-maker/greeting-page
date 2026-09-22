@@ -18,10 +18,4 @@ return Application::configure(basePath: dirname(__DIR__))
         $exceptions->shouldRenderJsonWhen(
             fn (Request $request) => $request->is('api/*') || $request->expectsJson(),
         );
-
-        $exceptions->render(function (\Throwable $e) {
-            if ($e instanceof \ArgumentCountError && strpos($e->getMessage(), 'Manager::createDriver') !== false) {
-                return response("<h1>Manager Crash Debug 3</h1><pre>" . $e->getTraceAsString() . "</pre>", 500);
-            }
-        });
     })->create();
