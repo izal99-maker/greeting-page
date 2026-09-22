@@ -18,7 +18,7 @@ class BirthdayController extends Controller
             [
                 'tanggal' => '23 September 2022',
                 'judul' => 'Masa Penyelidikan (PDKT)',
-                'cerita' => 'Fase di mana aku mulai sadar: memilihmu adalah keputusan yang akan mengubah hidupku, dan anehnya, aku malah makin sayang.',
+                'cerita' => 'Fase di mana mas mulai sadar: memilih adek adalah keputusan yang akan mengubah hidup mas, dan anehnya mas malah makin sayang.',
                 'icon' => '🕵️♂️'
             ],
             [
@@ -30,7 +30,7 @@ class BirthdayController extends Controller
             [
                 'tanggal' => 'Hari Ini, 2026',
                 'judul' => 'Bertambah Umur & Makin Bersinar',
-                'cerita' => 'Merayakan hari lahirnya si anak pertama yang selalu sok kuat. Hari ini kamu bebas minta apa aja, aku siap nurut!',
+                'cerita' => 'Merayakan hari lahirnya si anak pertama yang selalu sok kuat. Hari ini adek bebas minta apa aja, mas siap perintah!',
                 'icon' => '🎂'
             ]
         ];
