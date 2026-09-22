@@ -12,7 +12,7 @@ class BirthdayController extends Controller
             [
                 'tanggal' => '30 April 2022',
                 'judul' => 'Sidang Pertama (Awal Kenal)',
-                'cerita' => 'Momen pertama kali kita ngobrol. Waktu itu kamu masih jaim banget, wajar aura masih gelap hahaha. Belum kelihatan sifat asli rewelnya.',
+                'cerita' => 'Momen pertama kali kita ngobrol. Waktu itu adek masih jaim banget, wajar aura masih gelap hahaha. Belum kelihatan sifat asli rewelnya.',
                 'icon' => '👀'
             ],
             [
