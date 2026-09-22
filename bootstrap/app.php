@@ -21,14 +21,7 @@ return Application::configure(basePath: dirname(__DIR__))
 
         $exceptions->render(function (\Throwable $e) {
             if ($e instanceof \ArgumentCountError && strpos($e->getMessage(), 'Manager::createDriver') !== false) {
-                $trace = $e->getTrace();
-                $output = "<h1>Manager Crash Debug 2</h1>";
-                foreach ($trace as $t) {
-                    if (isset($t['object']) && $t['object'] instanceof \Illuminate\Support\Manager) {
-                        $output .= "<p>Failing Manager Instance: " . get_class($t['object']) . "</p>";
-                    }
-                }
-                return response($output, 500);
+                return response("<h1>Manager Crash Debug 3</h1><pre>" . $e->getTraceAsString() . "</pre>", 500);
             }
         });
     })->create();
