@@ -50,7 +50,7 @@
                 Sebagai anak pertama, adek itu sering banget sok kuat, sok mandiri, dan pengen nanggung semuanya
                 sendiri. Tapi asal adek tau, di depan mas adek selalu boleh kok berubah jadi Masha yang rewel, banyak
                 maunya, dan hobi berantakin hidup mas (<i>in a very good way</i>!). Mas selalu siap jadi Bear-nya yang
-                sabar ngadepin kamu.<br><br>
+                sabar ngadepin adek.<br><br>
                 Buat sarjana Hukum yang berzodiak Libra, mas tau kadang salah satu menjawab terserah aja bisa jadi
                 perdebatan
                 sengit. Tapi berdasarkan Pasal 1 Hukum Percintaan Kita: <b>"Adek selalu benar (dan cantik)"</b>.
@@ -89,7 +89,7 @@
 
         <button data-aos="zoom-in" data-aos-delay="200" onclick="bukaPetunjuk()"
             class="bg-rose-600 hover:bg-rose-700 text-white font-bold py-4 px-8 rounded-full shadow-lg transform transition hover:scale-110 duration-300 animate-bounce mt-4">
-            Klik Untuk Cari Tahu Kadomu! 🎁
+            Klik Untuk Cari Tahu Kado Adek! 🎁
         </button>
 
         <div id="petunjuk-kado"
