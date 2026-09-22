@@ -47,14 +47,15 @@
             <p class="text-lg leading-relaxed text-left text-gray-700">
                 Hai Sayang,<br><br>
                 Selamat bertambah umur! 🎉<br><br>
-                Sebagai anak pertama, kamu itu sering banget sok kuat, sok mandiri, dan pengen nanggung semuanya
-                sendiri. Tapi asal kamu tau, di depanku kamu selalu boleh kok berubah jadi Masha yang rewel, banyak
-                maunya, dan hobi berantakin hidupku (<i>in a very good way</i>!). Aku selalu siap jadi Bear-nya yang
+                Sebagai anak pertama, adek itu sering banget sok kuat, sok mandiri, dan pengen nanggung semuanya
+                sendiri. Tapi asal adek tau, di depan mas adek selalu boleh kok berubah jadi Masha yang rewel, banyak
+                maunya, dan hobi berantakin hidup mas (<i>in a very good way</i>!). Mas selalu siap jadi Bear-nya yang
                 sabar ngadepin kamu.<br><br>
-                Buat sarjana Hukum yang berzodiak Libra, aku tau kadang milih menu makanan aja bisa jadi perdebatan
-                sengit. Tapi berdasarkan Pasal 1 Hukum Percintaan Kita: <b>"Kamu selalu benar (dan cantik)"</b>.
+                Buat sarjana Hukum yang berzodiak Libra, mas tau kadang salah satu menjawab terserah aja bisa jadi
+                perdebatan
+                sengit. Tapi berdasarkan Pasal 1 Hukum Percintaan Kita: <b>"Adek selalu benar (dan cantik)"</b>.
                 <br><br>
-                Terima kasih ya sudah lahir ke dunia dan mampir ke hidupku. <i>I love you so much!</i>
+                Terima kasih ya sudah lahir ke dunia dan mampir ke hidup mas. <i>I love you so much!</i>
             </p>
         </div>
     </section>
@@ -95,8 +96,8 @@
             class="hidden mt-8 max-w-md mx-auto bg-gray-900 text-white p-8 rounded-xl shadow-2xl transform transition-all">
             <h3 class="text-xl font-bold text-rose-300 mb-3">Petunjuk Kado:</h3>
             <p class="text-gray-200">
-                Karena kamu berharga dan istimewa, coba bayangkan sesuatu yang kamu biasa hobi (manifestasikan barangnya
-                yang berhubungan dengan Cewek). Ada sesuatu dari The Bear buat kamu! 🐻🩷
+                Karena adek berharga dan istimewa, coba bayangkan sesuatu yang adek biasa hobi (manifestasikan barangnya
+                yang berhubungan dengan Cewek). Ada sesuatu dari The Bear buat Masha! 🐻🩷
             </p>
         </div>
     </section>
